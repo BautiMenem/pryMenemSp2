@@ -19,7 +19,9 @@ namespace pryMenemCabaña
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            lstTipo.SelectedIndex = 0;
             
+            txtDias.SelectedText = "1";
         }
 
         private void lstTipo_SelectedIndexChanged(object sender, EventArgs e)
@@ -31,7 +33,31 @@ namespace pryMenemCabaña
             else
             {
                 lstPersonas.Enabled = false;
-            }  
+            }
+
+            if (lstTipo.Text == "Tipo A")
+            {
+                lstPersonas.Items.Clear();  
+                lstPersonas.Items.Add(1);
+                lstPersonas.Items.Add(2);
+                lstPersonas.Items.Add(3);
+                lstPersonas.Items.Add(4);
+            }
+        
+            if(lstTipo.Text == "Tipo B")
+            {
+                lstPersonas.Items.Clear();
+                lstPersonas.Items.Add(1);
+                lstPersonas.Items.Add(2);
+                lstPersonas.Items.Add(3);
+                lstPersonas.Items.Add(4);
+                lstPersonas.Items.Add(5);
+                lstPersonas.Items.Add(6);
+                lstPersonas.Items.Add(7);
+                lstPersonas.Items.Add(8);
+                
+            }    
+            
         }
 
         private void lstPersonas_SelectedIndexChanged(object sender, EventArgs e)
