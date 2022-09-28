@@ -20,3 +20,14 @@ C:\Users\Alumnos\Source\Repos\pryMenemCaba-a\obj\Debug\pryMenemCabaña.csproj.Ge
 C:\Users\Alumnos\Source\Repos\pryMenemCaba-a\obj\Debug\pryMenemCabaña.csproj.CoreCompileInputs.cache
 C:\Users\Alumnos\Source\Repos\pryMenemCaba-a\obj\Debug\pryMenemCabaña.exe
 C:\Users\Alumnos\Source\Repos\pryMenemCaba-a\obj\Debug\pryMenemCabaña.pdb
+C:\Users\54351\Source\Repos\pryMenemCaba-a3\pryMenemCaba-a\bin\Debug\pryMenemCabaña.exe.config
+C:\Users\54351\Source\Repos\pryMenemCaba-a3\pryMenemCaba-a\bin\Debug\pryMenemCabaña.exe
+C:\Users\54351\Source\Repos\pryMenemCaba-a3\pryMenemCaba-a\bin\Debug\pryMenemCabaña.pdb
+C:\Users\54351\Source\Repos\pryMenemCaba-a3\pryMenemCaba-a\obj\Debug\pryMenemCabaña.csproj.AssemblyReference.cache
+C:\Users\54351\Source\Repos\pryMenemCaba-a3\pryMenemCaba-a\obj\Debug\pryMenemCabaña.csproj.SuggestedBindingRedirects.cache
+C:\Users\54351\Source\Repos\pryMenemCaba-a3\pryMenemCaba-a\obj\Debug\pryMenemCabaña.frmMain.resources
+C:\Users\54351\Source\Repos\pryMenemCaba-a3\pryMenemCaba-a\obj\Debug\pryMenemCabaña.Properties.Resources.resources
+C:\Users\54351\Source\Repos\pryMenemCaba-a3\pryMenemCaba-a\obj\Debug\pryMenemCabaña.csproj.GenerateResource.cache
+C:\Users\54351\Source\Repos\pryMenemCaba-a3\pryMenemCaba-a\obj\Debug\pryMenemCabaña.csproj.CoreCompileInputs.cache
+C:\Users\54351\Source\Repos\pryMenemCaba-a3\pryMenemCaba-a\obj\Debug\pryMenemCabaña.exe
+C:\Users\54351\Source\Repos\pryMenemCaba-a3\pryMenemCaba-a\obj\Debug\pryMenemCabaña.pdb

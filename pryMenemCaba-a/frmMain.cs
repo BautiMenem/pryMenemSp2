@@ -149,5 +149,75 @@ namespace pryMenemCabaña
                 btnAceptar.Enabled = false;
             }
         }
+
+        private void btnAceptar_Click(object sender, EventArgs e)
+        {
+            float precio = 0;
+
+            int personas = Int32.Parse(lstPersonas.Text.ToString());
+            int dias = Int32.Parse(txtDias.Text.ToString());
+
+            if (lstTipo.Text == "Tipo A" )
+            {
+                precio = 20;
+                if (chkTele.Checked)
+                {
+                    precio = precio + (dias * 1);
+                }
+                else if (chkCocina.Checked)
+                {
+                    precio = precio + (float)(dias * 1.5);
+                }
+                else if (chkHeladera.Checked)
+                {
+                    precio = precio + (dias * 2);
+                }
+
+                precio = precio + ((personas * 1) * dias);
+                
+
+            }
+            else if (lstTipo.Text == "Tipo B")
+            {
+                precio = 34;
+                if (chkTele.Checked)
+                {
+                    precio = precio + (dias * 1);
+                }
+                else if (chkCocina.Checked)
+                {
+                    precio = precio + (float)(dias * 1.5);
+                }
+                else if (chkHeladera.Checked)
+                {
+                    precio = precio + (dias * 2);
+                }
+
+                precio = precio + ((personas * 1) * dias);
+            }
+
+            if (optTarjeta.Checked && lstTarjetas.Text == "Card Red (Recargo 10%)")
+            {
+                precio = precio + (float)(precio * 0.1);
+            }
+            else if (optTarjeta.Checked && lstTarjetas.Text == "Card Green (Recargo 20%)" || lstTarjetas.Text == "Card Blue (Recargo 20%)")
+            {
+                precio = precio + (float)(precio * 0.2);
+            }
+
+            MessageBox.Show("El costo total es de:  " + precio);
+        
+            lstTarjetas.Items.Clear();
+            lstTipo.SelectedIndex = 0;
+            lstPersonas.SelectedIndex = 0;
+            txtDias.Text = "1";
+            chkCocina.Checked = false;
+            chkHeladera.Checked = false;
+            chkTele.Checked = false;
+            optEfectivo.Checked = true;
+            txtNom.Text = "";
+            txtTel.Text = "";
+
+        }
     }
 }
